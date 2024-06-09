@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>ValidPass</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div id="logo">ValidPass</div>
+                <i id="logo-icon" class="fa-solid fa-leaf"></i>
+            </div>
+
+            <div class="link-container">
+                <a href="https://www.linkedin.com/in/lgpassarini/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/lgpassarini" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="pass-section">
+
+        <video id="pass-video" autoplay muted loop>
+            <source src="./img/home-video.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+
+        <div id="pass-container">
+
+            <div class="input-section">
+                <label for="pass_txt">Senha</label>
+                <div class="input-eye">
+                    <input name="pass_txt" type="password" id="pass_txt" maxlength="25">
+                    <i id="view-pass" class="fa-solid fa-eye"></i>
+                </div>
+            </div>
+    
+            <div class="validate-section">
+                <span>A senha possui ao menos:</span>
+                <ul class="validate-list">
+                    <li id="item-lenght" class="validate-item"><span class="item-txt">12 caracteres</span> <i class="fa-regular fa-circle-xmark"></i></li>
+                    <li id="item-upper" class="validate-item"><span class="item-txt">1 letra maiúscula</span> <i class="fa-regular fa-circle-xmark"></i></li>
+                    <li id="item-special" class="validate-item"><span class="item-txt">1 caractere especial</span> <i class="fa-regular fa-circle-xmark"></i></li>
+                    <li id="item-numeric" class="validate-item"><span class="item-txt">1 caractere numérico</span> <i class="fa-regular fa-circle-xmark"></i></li>
+                    <li id="item-lower" class="validate-item"><span class="item-txt">1 letra minúscula</span> <i class="fa-regular fa-circle-xmark"></i></li>
+                </ul>
+            </div>
+    
+            <div class="result">
+                <span class="result-txt"></span>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="warning-section">
+        <div class="warning-container">
+            <h1>"Uma senha forte é o escudo que protege seu mundo digital. <br>Fortaleça sua segurança, proteja sua senha."</h1>
+            <span>Estima-se que mais de 80% das violações de dados são resultado de senhas fracas ou comprometidas. <br><strong>Proteja</strong> sua privacidade utilizando nossa ferramenta <strong>gratuita</strong>!</span>
+        </div>
+    </section>
+
+    <section id="perfil-section">
+        <div class="perfil-container">
+
+            <div class="perfil-content">
+                <div class="perfil-presentation">
+                    <h3 id="perfil-title">Quem sou eu</h3>
+                    <img id="perfil-img" src="./img/leo.jpg" alt="">
+                    <span>Leonardo Passarini</span>
+                </div>
+
+                <div class="perfil-text">
+                    <div class="perfil-item">Sou Leonardo Passarini, um jovem de 23 anos apaixonado por tecnologia e estudante de Análise e Desenvolvimento de Sistemas na Instituição Cruzeiro do Sul.</div>
+                    <div class="perfil-item">O objetivo desse projeto é proporcionar às pessoas um meio eficaz de controlar e aprimorar a qualidade de suas senhas, aplicando as habilidades e técnicas adquiridas no ambiente acadêmico.</div>
+                    <div class="perfil-item">Este projeto representa não apenas um desafio pessoal, mas também uma oportunidade de contribuir para um mundo digital mais seguro e protegido para todos.</div>
+                </div>
+            </div>
+                
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

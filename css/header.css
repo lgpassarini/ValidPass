@@ -1,0 +1,30 @@
+nav{
+    background-color: #55AD9B;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+#logo{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+}
+
+#logo-icon{
+    color: white;
+}
+
+.link-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.875rem;
+    gap: 10px;
+}

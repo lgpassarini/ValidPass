@@ -1,0 +1,24 @@
+#warning-section{
+    margin-top: 140px;
+    padding: 80px 60px;
+    background-color: #55AD9B;
+}
+
+.warning-container{
+    font-style: italic;
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.warning-container h1{
+    font-size: 1.875rem;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.warning-container span{
+    color: white;
+    font-size: 1.125rem;
+
+}
